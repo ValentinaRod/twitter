@@ -1,0 +1,69 @@
+
+body{
+	background-color: #E5E3F2;
+}
+textarea {
+	width: 100%;
+	height: 100px;
+	color: #4E4D53;
+	font-size: 15px;
+	padding: 10px;
+	border-radius: 10px;
+	border: 0px;
+	margin-bottom: 10px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+.navbar-default {
+	background-color: #1DA1F2;
+	margin-bottom: 70px;
+	height: 130px;
+	box-shadow: 0px 1px 24px -6px rgba(0,0,0,1);
+}
+.titulo{
+	color: #FFF;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+}
+#boton{
+	background-color: #1DA1F2;	
+	border: 0px;
+	cursor: pointer;
+	box-shadow: 0px 1px 24px -6px rgba(0,0,0,1);
+	text-align: center;
+	margin-bottom: 20px;
+	width: 130px;
+}
+#boton:hover{
+	background-color: #167EBF; 
+}
+#contenedor{
+	background-color: #FFF;
+	border-radius: 5px;
+	width: 100%;
+	color: #4E4D53;
+}
+#contenedor span{
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+#contenedor div {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	outline: 2px solid #E5E3F2;
+}
+.fa-trash-o, .fa-heart{
+	float: right;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.fa-trash-o:hover{
+	color: #1DA1F2;
+}
+.red{
+	color: #D40F00;
+}
+.tachado{
+	text-decoration: line-through;
+}
